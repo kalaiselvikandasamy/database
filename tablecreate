@@ -3,4 +3,5 @@
 --select * from patientinfo
 --alter table patientinfo
 --ADD emailid varchar(30)
-create table drinfo(drid int(5),name varchar(20),specilalization varchar(15),mobno varchar(10),availabletime varchar(5) check (availabletime in('mrng','noon','evng')))
+--create table drinfo(drid int(5),name varchar(20),specilalization varchar(15),mobno varchar(10),availabletime varchar(5) check (availabletime in('mrng','noon','evng')))
+insert into drinfo(drid,name,specilalization,mobno,availabletime)values('11102','reshma','orthologist','9876543201','noon')
