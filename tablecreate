@@ -1,0 +1,6 @@
+--CREATE table patientinfo(id int(3),fname varchar(10),lname varchar(10),age int(2),gender char(1),city varchar(20),phoneno varchar(10))
+--insert into patientinfo(id,fname,lname,age,gender,city,phoneno)VALUES(100,'kalai','kandan',19,'f','chennai',9080077348)
+--select * from patientinfo
+--alter table patientinfo
+--ADD emailid varchar(30)
+create table drinfo(drid int(5),name varchar(20),specilalization varchar(15),mobno varchar(10),availabletime varchar(5) check (availabletime in('mrng','noon','evng')))
