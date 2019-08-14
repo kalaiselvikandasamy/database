@@ -11,3 +11,4 @@
 select * from consultation
 --select fname,lname from patientinfo where city  is not'chennai'
 select count(gender) from patientinfo where gender='m'
+SELECT p1.pid,fname,gender,consult_date from patientinfo p1 JOIN consultation c1 on p1.pid=c1.pid(to display  common data)
