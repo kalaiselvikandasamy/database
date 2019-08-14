@@ -24,3 +24,4 @@ select * from consultation
 insert into drinfo(drid,name,specilalization,mobno,availabletime)values('11102','reshma','orthologist','9876543201','noon')
 8
 SELECT * from drinfo
+select lname,fname from patientinfo where city='chennai'
